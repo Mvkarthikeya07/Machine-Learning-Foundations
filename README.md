@@ -39,18 +39,6 @@ No frameworks doing the thinking. The math is the dependency.
 
 ---
 
-## Running Any Project
-
-Each folder is independent. Drop into it and run the entry point:
-
-```bash
-cd <project-folder>
-pip install -r requirements.txt   # if present, otherwise see imports at the top of main.py
-python main.py
-```
-
----
-
 ## Why This Exists
 
 These aren't tutorial-follow-alongs left to rot in a repo. Each one was built to answer a question that "just use the library" doesn't actually answer: *what is the model doing, mechanically, between input and output?* That question is the entire curriculum here.
